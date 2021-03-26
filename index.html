@@ -20,15 +20,18 @@
 <body>
 	<div id="tooplate_wrapper">
 		<div id="tooplate_sidebar">
-			<div id="site_title"><a href="#">Talent Consulting</a></div>
+			<div id="site_title"><a href="#">Talent <span style="color:skyblue;">Consulting</span></a></div>
 			<div id="tooplate_menu">
 				<ul>
 					<li><a href="#top" class="home"><span></span>Home</a></li>
-					<li><a href="#coding" class="coding"><span></span>Coding</a></li>
-					<li><a href="#security" class="security"><span></span>Security</a></li>
+					<li><a href="#coding" class="coding"><span></span>Principles</a></li>
+					<li><a href="#codeprinciples" class="coding"><span></span> Standards</a></li>
+					<li><a href="#naming" class="naming"><span></span>Naming</a></li>
 					
+					<li><a href="#security" class="security"><span></span>Security</a></li>
+
 					<li><a href="#architectural" class="architectural"><span></span>Architectural</a></li>
-					<li><a href="#engineering" class="engineering"><span></span>Engineering</a></li>
+					<li><a href="#gdssystem" class="gdssystem"><span></span>GDS</a></li>
 
 					<li><a href="#contact" class="contact"><span></span>Contact</a></li>
 				</ul>
@@ -51,88 +54,142 @@
 				<div class="cleaner"></div>
 			</div> <!-- END of home -->
 			<div id="coding" class="main_box">
-				<h1>Coding Standards</h1>
+				<h1>Coding Principles</h1>
 				<img src="images/coding.jpg" alt="Image 01" class="img_float_l img_frame" />
-				<h3>
-					The reason why coding standards are important is that they help to ensure safety, security, and reliability.
 
-					Every development team should use one. Even the most experienced developer could introduce a coding defect — without realizing it. And that one defect could lead to a minor glitch. Or worse, a serious security breach.
-				</h3>
-				<h4>When designing, developing and implementing systems.....</h4>
-				<p><em></em></p>
-				<p>
-					<h3>Code Reuse</h3>	<h5>Use existing high-quality, reusable, shared code</h5>
-				</p>
-				<p>
-					<h3>Convention over configuration</h3><h5>
-						Should only need to specify unconventional aspects of a system
-					</h5>
-				</p>
-				<p>
-					<h3>Modular Design</h3><h5>
-						Subdivide application into smaller parts, i.e. micro-services, with defined contracts
-					</h5>
-				</p>
-				<p>
-					<h3>Scalable Design	</h3><h5>
-						Ensure application modules can be scaled horizontally and vertically
-					</h5>
-				</p>
-				<p>
-					<h3>Accessible Design</h3>	<h5>
-						All users on all devices should be able to seamlessly and consistently access the service
-					</h5>
-				</p>
-				<p>
-					<h3>DRY Code</h3>	<h5>
-						Early identification of common routines and methods for abstraction and shared use
-					</h5>
-				</p>
-				<p>
-					<h3>
-						OO Open/Closed
-					</h3><h5>
-						Add new functionality without changing existing code
-					</h5>
-				</p>
-				<p>
-					<h3>OO Composition over inheritance</h3>	<h5>
-						Composite reuse that allows classes to achieve polymorphism by composition not inheritance
-					</h5>
-				</p>
-				<p>
-					<h3>
-						Single Responsibility Pattern
-					</h3>	<h5>
-						Focus modules/classes on a single concern and single responsibility
-						Inversion of Control	Allow the application to control the program flow via a framework or configuration
-					</h5>
-				</p>
-
-				<div class="cleaner h40"></div>
-				<div class="col_12 float_l">
-					<h3></h3>
-					<h6></h6>
-					<p></p>
-
+				<div class="col_24">
+					<p>
+						<h3>Convention over configuration</h3><h5>
+							Should only need to specify unconventional aspects of a system
+						</h5>
+					</p>
+					<p>
+						<h3>Modular Design</h3><h5>
+							Subdivide application into smaller parts, i.e. micro-services, with defined contracts
+						</h5>
+					</p>
+					<p>
+						<h3>Scalable Design	</h3><h5>
+							Ensure application modules can be scaled horizontally and vertically
+						</h5>
+					</p>
+					<p>
+						<h3>Accessible Design</h3>	<h5>
+							All users on all devices should be able to seamlessly and consistently access the service
+						</h5>
+					</p>
+					<p>
+						<h3>DRY Code</h3>	<h5>
+							Early identification of common routines and methods for abstraction and shared use
+						</h5>
+					</p>
+					<p>
+						<h3>
+							OO Open/Closed
+						</h3><h5>
+							Add new functionality without changing existing code
+						</h5>
+					</p>
+					<p>
+						<h3>OO Composition over inheritance</h3>	<h5>
+							Composite reuse that allows classes to achieve polymorphism by composition not inheritance
+						</h5>
+					</p>
+					<p>
+						<h3>
+							Single Responsibility Pattern
+						</h3>	<h5>
+							Focus modules/classes on a single concern and single responsibility
+							Inversion of Control	Allow the application to control the program flow via a framework or configuration
+						</h5>
+					</p>
 				</div>
+
+
 
 				<div class="cleaner"></div>
 				<a href="#tooplate_main" class="gototop">Go To Top</a>
 				<div class="cleaner"></div>
 			</div> <!-- END of coding -->
+			<div id="codeprinciples" class="main_box">
+				<h1>Coding Standards</h1>
+
+				<div class="col_12 float_l">
+					<div class="cleaner h40">
+						<p>* Avoid hardcoded strings</p>
+						<p>* Enum rather than numbers</p>
+						<p>* Convert strings to lower/upper case before comparing</p>
+						<p>* Use string.empty not ""</p>
+						<p>* Avoid long methods, breakdown and refactor into many methods</p>
+						<p>* Avoid long code files < 1000 lines</p>
+						<p>* Member variables are private with accessors</p>
+						<p>* Any event handler should pass off to a method</p>
+						<p>* Use relative paths</p>
+						<p>* Smoke testing on initialisation</p>
+						<p>* Add Config file defaults failover if not found</p>
+						<p>* Config error reporting if incorrect value found</p>
+						<p>* Bespoke and verbose error messages with reason and possible solution</p>
+						<p>* Ideally One class per file</p>
+						<p>* Avoid passing too many parameters to a method, add class/structure</p>
+						<p>* Avoid passing null arrays, always pass initialised empty array</p>
+						<p>* Avoid too many folders in a single assembly</p>
+						<p>* Add a "finally" block to around DB access to close connection</p>
+
+					</div>
+				</div>
+
+				<div class="col_12 float_r">
+					<img src="images/standards.png" alt="Image 01" class="img_float_l img_frame" height="350" width="350" />
+					<img src="images/codingstandards.jpg" alt="Image 01" class="img_float_l img_frame" height="300" width="350" />
+				</div>
+
+				<div class="cleaner"></div>
+				<a href="#tooplate_main" class="gototop">Go To Top</a>
+				<div class="cleaner"></div>
+			</div> <!-- END of princciples -->
+			<div id="naming" class="main_box">
+				<h1>Naming Conventions</h1>
+
+				<div class="col_12 float_l">
+					<div class="cleaner h40">
+						
+						<p>* Provide additional information about the use of an identifier</p>
+						<p>* Help formalize consistency and expectations within the team</p>
+						<p>* Facilitate the use of automated refactoring tools</p>
+						<p>* Enhance clarity and remove ambiguity</p>
+						<p>* Dissuade the use of overly long names, comical or abbreviations</p>
+						<p>* Avoid naming collisions across modules</p>
+						<p>* Ease project handovers of source code to relevant parties</p>
+						<p>* Promote understanding in case of code reuse after a long interval of time</p>
+
+					</div>
+				</div>
+
+				<div class="col_12 float_r">
+					<img src="images/Naming.png" alt="Image 01" class="img_float_l img_frame" height="270" width="380" />
+					
+				</div>
+
+				<div class="cleaner"></div>
+				<a href="#tooplate_main" class="gototop">Go To Top</a>
+				<div class="cleaner"></div>
+			</div> <!-- END of princciples -->
 			<div id="security" class="main_box">
 				<h1>Security Standards</h1>
 				<img src="images/security1.jpg" alt="Image 01" class="img_float_l img_frame" height="200" width="200" />
 				<h3>
-					Our security principles start from the National Cyber Security Centre principles :
+					Our security principles start from the National Cyber Security Centre principles below:
+					&nbsp;
 					<a href="https://www.ncsc.gov.uk/collection/cloud-security/implementing-the-cloud-security-principles" target="_blank"><img src="images/security.jpg" alt="Image 01" class="img_float_l img_frame" /> </a>
 				</h3>
+
+
 				<div class="cleaner">
 					<div id="templateul">
+						<h3>Security by design </h3>:
 						<ul>
 							<li>
-								Principle of least privilege  
+								Principle of least privilege
 							</li>
 							<li>
 								Separation of Users via User Management and IDAMS
@@ -168,67 +225,134 @@
 				<a href="#tooplate_main" class="gototop">Go To Top</a>
 				<div class="cleaner"></div>
 			</div> <!-- END of security -->
-				<div id="architectural" class="main_box">
-					<h1>Architectural Principles</h1>
-					<img src="images/architectural.jpg" alt="image" class="img_float_r img_frame" height="150" width="250" />
-					<p><em>Architecture principles are the rules and guidelines specific to an enterprise's architecture. They are a subset of IT principle used to govern the information management systems and any other IT tools of an enterprise.</em></p>
-					<div id="templateul">
-						<ul>
+			<div id="architectural" class="main_box">
+				<h1>Architectural Principles</h1>
+				<img src="images/architectural.jpg" alt="image" class="img_float_r img_frame" height="150" width="250" />
+				<p><h3>Architecture principles are the rules and guidelines specific to an enterprise's architecture. They are a subset of IT principles used to govern the information management systems and any other IT tools of an enterprise.</h3></p>
+				<div id="templateul">
+					<ul>
 
-							<li>Information Management </li>
-							<li>Business Continuity and DR </li>
-							<li>Data as an Asset to be Ahared and Accessible</li>
-							<li>Maximize Benefit to the Enterprise</li>
-							<li>Ease-of-Use and Accessibility</li>
-							<li>Control Technical Divergence</li>
-						</ul>
-					</div>
+						<li>Information Management </li>
+						<li>Business Continuity and DR </li>
+						<li>Data as an Asset to be Ahared and Accessible</li>
+						<li>Maximize Benefit to the Enterprise</li>
+						<li>Ease-of-Use and Accessibility</li>
+						<li>Control Technical Divergence</li>
+					</ul>
+				</div>
 
 
 
-					<div class="cleaner h40"></div>
-					<div class="col_12 float_l">
-						<h3>Micro-Services</h3>
-						<blockquote>
-							<p></p>
-							<cite><span></span></cite>
-						</blockquote>
-						<blockquote>
-							<p></p>
-							<cite><span></span></cite>
-						</blockquote>
-					</div>
-					<div class="col_12 float_r">
-						<h3>Monolith</h3>
-						<ul class="tooplate_list">
-						</ul>
-					</div>
-					<div class="cleaner"></div>
-					<a href="#tooplate_main" class="gototop">Go To Top</a>
-					<div class="cleaner"></div>
-				</div> <!-- END of architectural -->
+				<div class="cleaner h40">
+					<h2>Two predominant architectural types: </h2>
+				</div>
+				
+				<div class="col_12 float_l">
+					<h3>Micro-Services</h3>
+					<h4>Pros</h4>
+					<blockquote>
+						<p>Scalable</p>
+						<p>Security Boundaries</p>
+						<p>Modular by Design</p>
+						<p>Independent CI/CD</p>
+						<p>Maintainable/Zero Downtime</p>
+						<p>Zero Downtime</p>
+						<p>Diverse/Autonomous</p>
+						<p>Low coupling</p>
+					</blockquote>
+					<h4>Cons</h4>
+					<blockquote>
+						<p>Complexity</p>
+						<p>Eventual Consistency</p>
+						<p>Remote calls</p>
+						<p>Design for failure</p>
+						<p>Cross-cutting concerns</p>
+					</blockquote>
+				</div>
+				<div class="col_12 float_r">
+					<h3>Monolith</h3>
+					<h4>Pros</h4>
+					<blockquote>
+						<p>Simplicity</p>
+						<p>Cross-cutting concerns</p>
+						<p>Performance</p>
+						<p>Consistent Technology stack</p>
+						
+					</blockquote>
+					<h4>Cons</h4>
+					<blockquote>
+						<p>Reliability</p>
+						<p>Larege Updates/Releases</p>
+						<p>Technology stack</p>
+						
+					</blockquote>
+				</div>
+				<div class="cleaner"></div>
+				<a href="#tooplate_main" class="gototop">Go To Top</a>
+				<div class="cleaner"></div>
+			</div> <!-- END of architectural -->
+			<div id="gdssystem" class="main_box">
+				<h1>GDS </h1>
+				<div class="col_12 float_l">
+					<h3>GOV.UK Design System</h3>
+					<h5>
+						Use this design system to make your service consistent with GOV.UK. Learn from the research and experience of other service teams and avoid repeating work that’s already been done.
+						Make your service look like GOV.UK with guides for applying layout, typography, colour and images.Make your service look like GOV.UK with guides for applying layout, typography, colour and images.
+						Help users complete common tasks like entering names and addresses, filling in forms and creating accounts.
+					</h5>
+					<a href="https://design-system.service.gov.uk/" target="_blank"><img src="images/gdesign.png" alt="Image 01" /> </a>
+				</div>
 
-				<div id="engineering" class="main_box">
-					<h1>Government </h1>
-					<img src="images//engineering.jpg" alt="image" class="img_float_r img_frame" height="250" width="350" />
-					<p><em>4 Software engineering guiding principles </em></p>
-					<p>KISS (Keep It Simple, Stupid)</p>
-					<p>DRY (Don’t Repeat Yourself)</p>
-					<p>YAGNI (You Aren’t Gonna Need It)</p>
-					<p>SOLID Principles</p>
-					<div class="cleaner h40"></div>
-
+				<div class="col_12 float_r">
 					<ul id="gallery">
-						<li><a href="images/engineering2.jpg"><img src="images/engineering2.jpg" alt="engineering" class="img_frame" height="250" width="350" /></a></li>
+						<li><img src="images/engineering.jpg" alt="engineering" class="img_frame" height="250" width="350" /></li>
 
 					</ul>
+				</div>
+
+
+				<div class="col_12 float_r">
+					<h3>Technology Code of Practice</h3>
+					<h5>
+						You should use the Technology Code of Practice for all of your government technology projects or programmes. Consider each point, align your project or programme with the mandatory points, and follow as many of the remaining points as is practical.
+						You’ll get the most benefit by aligning your organisation’s technology and business strategies to the Technology Code of Practice.
+					</h5>
+					<a href="https://www.gov.uk/government/publications/technology-code-of-practice/technology-code-of-practice" target="_blank"><img src="images/gds.png" alt="Image 01" /> </a>
+				</div>
+
+				<div class="col_12 float_l">
+					<ul id="gallery">
+						<li><img src="images/engineering2.jpg" alt="engineering" class="img_frame" height="260" width="320" /></li>
+
+					</ul>
+				</div>
+
+
+
+
+
+				<div class="cleaner h40 float_l">
+					<div class="col_12 float_l">
+
+						<h3>GDS Service Standard</h3>
+						<h5>
+
+							The Service Standard helps teams to create and run great public services.
+
+						</h5>
+
+
+					</div>
+				</div>
+					<div class="cleaner h40 float_r">
+						<a class="col_12 float_r" href="https://design-system.service.gov.uk/" target="_blank"><img src="images/gdsmanual.png" alt="Image 01" height="42" width="320" /> </a>
+					</div>
+
+
 					<div class="cleaner"> </div>
 					<a href="#tooplate_main" class="gototop">Go To Top</a>
 					<div class="cleaner"></div>
 				</div> <!-- END of engineering -->
-
-
-
 				<div id="contact" class="main_box">
 					<h1>Contact Us</h1>
 
@@ -254,42 +378,42 @@
 							T. +44 (0) 117 332 0824
 							E. contactus@talentconsulting.uk
 						</p>
+
 					</div>
-				</div>
-				<div class="col_12 float_r">
+					<div class="col_12 float_r">
 
-					<div class="cleaner h30"></div>
-					<p>
-						Bristol
-						Ground Floor, The Quorum,
-						Bond Street,
-						BS1 3AE, UK
-						T. +44 (0) 117 332 0824
-						E. contactus@talentconsulting.uk
-					</p>
-					<p>
-						London
-						Sackler Studios
-						1-2 Bear Gardens
-						SE1 9ED
-						T. +44 (0) 117 332 0824
-						E. contactus@talentconsulting.uk
-					</p>
+						<div class="cleaner h30"></div>
+						<p>
+							Bristol
+							Ground Floor, The Quorum,
+							Bond Street,
+							BS1 3AE, UK
+							T. +44 (0) 117 332 0824
+							E. contactus@talentconsulting.uk
+						</p>
+						<p>
+							London
+							Sackler Studios
+							1-2 Bear Gardens
+							SE1 9ED
+							T. +44 (0) 117 332 0824
+							E. contactus@talentconsulting.uk
+						</p>
 
 
-					<div class="cleaner">
-						<b>Phone:</b> 030-030-0330<br />
-						<b>Email:</b> <a href="mailto:info@company.com">info@company.com</a>
-					</div>
-					<a href="#tooplate_main" class="gototop">Go To Top</a>
-					<div class="cleaner"></div>
-				</div> <!-- END of contact -->
+						<div class="cleaner">
+							<b>Phone:</b> 030-030-0330<br />
+							<b>Email:</b> <a href="mailto:info@company.com">info@company.com</a>
+						</div>
+						<a href="#tooplate_main" class="gototop">Go To Top</a>
+						<div class="cleaner"></div>
+					</div> <!-- END of contact -->
 
-			</div> <!-- END of main -->
+				</div> <!-- END of contats -->
 
-		<div class="cleaner"></div>
+				<div class="cleaner"></div>
+			</div>
 	</div>
-
 </body>
 </html>
 <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.2.min.js"></script>

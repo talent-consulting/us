@@ -95,11 +95,20 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+
+
+
 *.vbproj
 *.vbproj.user
 *.config
+ *.dll
+ *.cache
+
+
+
 # Chutzpah Test files
 _Chutzpah*
+
 
 # Visual C++ cache files
 ipch/

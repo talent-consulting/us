@@ -73,7 +73,22 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - But if complex code then detail in the function header comment
 - Use // not /* */ 
 
+## Security
+### Our security principles start from the National Cyber Security Centre principles below:
 
+[![NCSC](images/security.jpg)](https://www.ncsc.gov.uk/collection/cloud-security/implementing-the-cloud-security-principles)
+
+<img src="/images/security1.jpg" width="200" height="200" />
+
+- Security by Design
+- Principle of least privilege
+- Separation of Users via User Management and IDAMS
+- Secure Data in transit
+- Secure Service Administration and use of the Service
+- Asset Protection and Governance,
+- Operational, Personnel and Supply Chain Security
+- Auditing, logging and oversight
+							
 
 # Header 1
 ## Header 2

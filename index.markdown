@@ -2,7 +2,7 @@
 
 At Talent we are strong proponents of Agile methodologies. Taking the flexible approach to delivery but ensuring the project is delivered to timescale, scope and budget...sometimes a difficult balancing act! But this is where our broad experience and coding standards come to the fore. 
 
-![Talent](/_site/images/Talent.png)
+![Talent](/images/Talent.png)
 
 ## Coding Design
 
@@ -31,6 +31,9 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 
 - ### Inversion of Control	
   - Allow the application to control the program flow via a framework or configuration
+
+
+![Talent](/images/coding.jpg) 
 
 ## Coding Standards
 - Avoid hardcoded strings

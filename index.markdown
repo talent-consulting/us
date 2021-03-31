@@ -4,34 +4,53 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 
 ![TTalent](/_site/images/Talent.png)
 
-## Coding Standards
+## Coding Design
 
 - ### Convention over configuration
   - Should only need to specify unconventional aspects of a system
 - ### Modular Design
   - Subdivide application into smaller parts, i.e. micro-services, with defined contracts
+  
 - ### Scalable Design
- - Ensure application modules can be scaled horizontally and vertically
+  - Ensure application modules can be scaled horizontally and vertically 
 
 - ### Accessible Design
- - All users on all devices should be able to seamlessly and consistently access the service
+  - All users on all devices should be able to seamlessly and consistently access the service
 
 - ### DRY Code
- - Early identification of common routines and methods for abstraction and shared use
+  - Early identification of common routines and methods for abstraction and shared use
 
 - ### OO Open/Closed
- - Abiliy to add new functionality without changing existing code
+  - Abiliy to add new functionality without changing existing code
 
 - ### OO Composition over inheritance
- - Composite reuse that allows classes to achieve polymorphism by composition not inheritance
+  - Composite reuse that allows classes to achieve polymorphism by composition not inheritance
 
 - ### Single Responsibility Pattern
- - Focus modules/classes on a single concern and single responsibility
+  - Focus modules/classes on a single concern and single responsibility
 
 - ### Inversion of Control	
- - Allow the application to control the program flow via a framework or configuration
+  - Allow the application to control the program flow via a framework or configuration
 
-
+## Coding Standards
+- Avoid hardcoded strings
+- Enum rather than numbers
+- Convert strings to lower/upper case before comparing
+- Use string.empty not ""
+- Avoid long methods, breakdown and refactor into many methods
+- Avoid long code files < 1000 lines
+- Member variables are private with accessors
+- Any event handler should pass off to a method
+- Use relative paths
+- Smoke testing on initialisation
+- Add Config file defaults failover if not found
+- Config error reporting if incorrect value found
+- Bespoke and verbose error messages with reason and possible solution
+- Ideally One class per file
+- Avoid passing too many parameters to a method, add class/structure
+- Avoid passing null arrays, always pass initialised empty array
+- Avoid too many folders in a single assembly
+- Add a "finally" block to around DB access to close connection
 
 # Header 1
 ## Header 2

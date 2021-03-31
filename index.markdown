@@ -61,7 +61,14 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Avoid naming collisions across modules
 - Ease project handovers of source code to relevant parties
 - Promote understanding in case of code reuse after a long interval
-  
+ 
+## Comments
+- If your code is readable then comments should be unnecessary 
+- Meaningful but not verbose
+- But if complex code then detail in the function header comment
+- Use // not /* */ 
+
+
 # Header 1
 ## Header 2
 ### Header 3

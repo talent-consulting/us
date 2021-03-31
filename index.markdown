@@ -53,13 +53,13 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Add a "finally" block to around DB access to close connection
 
 ## Naming Conventions 
-- Provide additional information about the use of an identifier</p>
-- Help formalize consistency and expectations within the team</p>
-- Facilitate the use of automated refactoring tools</p>
-- Enhance clarity and remove ambiguity</p>
-- Dissuade the use of overly long names, comical or abbreviations</p>
-- Avoid naming collisions across modules</p>
-- Ease project handovers of source code to relevant parties</p>
+- Provide additional information about the use of an identifier
+- Help formalize consistency and expectations within the team
+- Facilitate the use of automated refactoring tools
+- Enhance clarity and remove ambiguity
+- Dissuade the use of overly long names, comical or abbreviations
+- Avoid naming collisions across modules
+- Ease project handovers of source code to relevant parties
 - Promote understanding in case of code reuse after a long interval
   
 # Header 1

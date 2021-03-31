@@ -3,7 +3,7 @@
 At Talent we are strong proponents of Agile methodologies. Taking the flexible approach to delivery but ensuring the project is delivered to timescale, scope and budget...sometimes a difficult balancing act! But this is where our broad experience and coding standards come to the fore. 
 
 ![Talent](/images/Talent.png)
-
+---
 ## Coding Design
 
 - ### Convention over configuration
@@ -32,13 +32,15 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - ### Inversion of Control	
   - Allow the application to control the program flow via a framework or configuration
 
+---
 
-![Talent](/images/coding.jpg) 
+## Coding Standards 
 
-## Coding Standards
-- Avoid hardcoded strings
-- Enum rather than numbers
-- Convert strings to lower/upper case before comparing
+![Talent](/images/coding.jpg)
+
+- Avoid hardcoded strings                                               
+- Enum rather than numbers                                              
+- Convert strings to lower/upper case before comparing                  
 - Use string.empty not ""
 - Avoid long methods, breakdown and refactor into many methods
 - Avoid long code files < 1000 lines
@@ -53,8 +55,8 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Avoid passing too many parameters to a method, add class/structure
 - Avoid passing null arrays, always pass initialised empty array
 - Avoid too many folders in a single assembly
-- Add a "finally" block to around DB access to close connection
-
+- Add a "finally" block to around DB access to close connection 
+---
 ## Naming Conventions 
 - Provide additional information about the use of an identifier
 - Help formalize consistency and expectations within the team
@@ -64,12 +66,13 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Avoid naming collisions across modules
 - Ease project handovers of source code to relevant parties
 - Promote understanding in case of code reuse after a long interval
- 
+ ---
 ## Comments
 - If your code is readable then comments should be unnecessary 
 - Meaningful but not verbose
 - But if complex code then detail in the function header comment
 - Use // not /* */ 
+
 
 
 # Header 1

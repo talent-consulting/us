@@ -2,7 +2,7 @@
 
 At Talent we are strong proponents of Agile methodologies. Taking the flexible approach to delivery but ensuring the project is delivered to timescale, scope and budget...sometimes a difficult balancing act! But this is where our broad experience and coding standards come to the fore. 
 
-![TTalent](/_site/images/Talent.png)
+![Talent](/_site/images/Talent.png)
 
 ## Coding Design
 
@@ -52,6 +52,16 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Avoid too many folders in a single assembly
 - Add a "finally" block to around DB access to close connection
 
+## Naming Conventions 
+- Provide additional information about the use of an identifier</p>
+- Help formalize consistency and expectations within the team</p>
+- Facilitate the use of automated refactoring tools</p>
+- Enhance clarity and remove ambiguity</p>
+- Dissuade the use of overly long names, comical or abbreviations</p>
+- Avoid naming collisions across modules</p>
+- Ease project handovers of source code to relevant parties</p>
+- Promote understanding in case of code reuse after a long interval
+  
 # Header 1
 ## Header 2
 ### Header 3

@@ -4,12 +4,34 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 
 ![TTalent](/_site/images/Talent.png)
 
-### Markdown
+## Coding Standards
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- ### Convention over configuration
+  - Should only need to specify unconventional aspects of a system
+- ### Modular Design
+  - Subdivide application into smaller parts, i.e. micro-services, with defined contracts
+- ### Scalable Design
+ - Ensure application modules can be scaled horizontally and vertically
 
-```markdown
-Syntax highlighted code block
+- ### Accessible Design
+ - All users on all devices should be able to seamlessly and consistently access the service
+
+- ### DRY Code
+ - Early identification of common routines and methods for abstraction and shared use
+
+- ### OO Open/Closed
+ - Abiliy to add new functionality without changing existing code
+
+- ### OO Composition over inheritance
+ - Composite reuse that allows classes to achieve polymorphism by composition not inheritance
+
+- ### Single Responsibility Pattern
+ - Focus modules/classes on a single concern and single responsibility
+
+- ### Inversion of Control	
+ - Allow the application to control the program flow via a framework or configuration
+
+
 
 # Header 1
 ## Header 2

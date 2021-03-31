@@ -1,0 +1,50 @@
+{"0": {
+    "doc": "About",
+    "title": "About",
+    "content": "12 Agile Principles . 1 Early and Continuous Delivery of Valuable Software... 2 Embrace Change... 3 Frequent Delivery... 4 Business and Developers Together... 5 Motivated Individuals... 6 Face-to-Face Conversation... 7 Working Software... 8 Sustainable Development . 9 Technical Excellence . 10 Simplicity . 11 Self-Organizing Teams . 12 Regular Reflection and Adjustment . ",
+    "url": "/about/",
+    "relUrl": "/about/"
+  },"1": {
+    "doc": "Architectural",
+    "title": "Architectural",
+    "content": "Architectural ",
+    "url": "/Architectural/",
+    "relUrl": "/Architectural/"
+  },"2": {
+    "doc": "Contact",
+    "title": "Contact",
+    "content": "Contact ",
+    "url": "/Contact/",
+    "relUrl": "/Contact/"
+  },"3": {
+    "doc": "Conventions",
+    "title": "Conventions",
+    "content": "Conventions ",
+    "url": "/Conventions/",
+    "relUrl": "/Conventions/"
+  },"4": {
+    "doc": "GDS",
+    "title": "GDS",
+    "content": "GDS ",
+    "url": "/GDS/",
+    "relUrl": "/GDS/"
+  },"5": {
+    "doc": "Principles",
+    "title": "Principles",
+    "content": "Principles ",
+    "url": "/Principles/",
+    "relUrl": "/Principles/"
+  },"6": {
+    "doc": "Security",
+    "title": "Security",
+    "content": "Security ",
+    "url": "/Security/",
+    "relUrl": "/Security/"
+  },"7": {
+    "doc": "Standards",
+    "title": "Standards",
+    "content": "Standards ",
+    "url": "/Standards/",
+    "relUrl": "/Standards/"
+  }
+}

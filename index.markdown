@@ -5,4 +5,4 @@ nav_order: 1
 ---
 # Talent Consulting Site
 
-![Talent]({{ site.baseurl }}/images/Talent.png "an image title")
+![Talent]({{ site.baseurl }}/_site/assets/images/Talent.png "an image title")

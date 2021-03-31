@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-nav_order: 1
+nav_order: 
 ---
 
 <h3> 12 Agile Principles</h3>

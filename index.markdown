@@ -4,3 +4,6 @@
 
 layout: home
 ---
+# Talent Consulting
+
+![Talent]({{ site.baseurl }}/images/Talent.png "an image title")

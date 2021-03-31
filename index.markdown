@@ -4,4 +4,3 @@
 
 layout: home
 ---
-![Talent](//_site/asssets/images/Talent.png) 

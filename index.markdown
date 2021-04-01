@@ -44,6 +44,9 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - ### Inversion of Control	
   - Allow the application to control the program flow via a framework or configuration
 
+
+[Back to Top](#contents)
+
 ---
 
 ## Coding Standards 
@@ -69,6 +72,9 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Avoid too many folders in a single assembly
 - Add a "finally" block to around DB access to close connection 
 
+[Back to Top](#contents)
+
+
 ---
 
 ## Naming Conventions 
@@ -81,6 +87,9 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Ease project handovers of source code to relevant parties
 - Promote understanding in case of code reuse after a long interval
 
+[Back to Top](#contents)
+
+
 ---
  
 ## Comments
@@ -88,6 +97,8 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Meaningful but not verbose
 - But if complex code then detail in the function header comment
 - Use // not /* */ 
+
+[Back to Top](#contents)
 
 ---
 
@@ -106,6 +117,9 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Asset Protection and Governance,
 - Operational, Personnel and Supply Chain Security
 - Auditing, logging and oversight
+
+[Back to Top](#contents)
+
 
 ---
 
@@ -143,6 +157,8 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 | Design for failure				| High coupling       			 |
 | Cross-cutting concerns			| Title       				 |
 
+[Back to Top](#contents)
+
 ---
 
 ## Government Design Systems
@@ -172,6 +188,8 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Solving whole problems and proofing that with User Research
 - Multidisciplined Agile teams that iterate and improve 
 - Secure and open source, re-using components and the right technology to create a reliable service
+
+[Back to Top](#contents)
 
 ---
 
@@ -207,6 +225,9 @@ T. +44 (0) 117 332 0824
 
 
 **E. contactus@talentconsulting.uk**
+
+
+[Back to Top](#contents)
 
 
 

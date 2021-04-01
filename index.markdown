@@ -16,6 +16,9 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 
 ---
 
+
+
+
 ## Coding Design
 
 - ### Convention over Configuration
@@ -58,7 +61,11 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 
 ### Coding Standards 
 
-![Talent](/images/coding.jpg)
+
+<table>
+
+<tr><td>
+
 
 - Avoid hardcoded strings                                               
 - Enum rather than numbers                                              
@@ -78,6 +85,13 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Avoid passing null arrays, always pass initialised empty array
 - Avoid too many folders in a single assembly
 - Add a "finally" block to around DB access to close connection 
+
+
+</td><td>
+
+![Talent](/images/coding.jpg)
+</td></tr> </table>
+
 
 [Back to Top](#contents)
 

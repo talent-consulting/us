@@ -3,7 +3,9 @@
 At Talent we are strong proponents of Agile methodologies. Taking the flexible approach to delivery but ensuring the project is delivered to timescale, scope and budget...sometimes a difficult balancing act! But this is where our broad experience and coding standards come to the fore. 
 
 ![Talent](/images/Talent.png)
+
 ---
+
 ## Coding Design
 
 - ### Convention over configuration
@@ -68,12 +70,16 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Avoid naming collisions across modules
 - Ease project handovers of source code to relevant parties
 - Promote understanding in case of code reuse after a long interval
- ---
+
+---
+ 
 ## Comments
 - If your code is readable then comments should be unnecessary 
 - Meaningful but not verbose
 - But if complex code then detail in the function header comment
 - Use // not /* */ 
+
+---
 
 ## Security
 ### Our security principles start from the National Cyber Security Centre principles below:
@@ -90,7 +96,9 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Asset Protection and Governance,
 - Operational, Personnel and Supply Chain Security
 - Auditing, logging and oversight
-							
+
+---
+
 ## Architectural Principles
 
 ![architectural](images/architectural.jpg) 
@@ -125,6 +133,7 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 | Design for failure				| High coupling       			 |
 | Cross-cutting concerns			| Title       				 |
 
+---
 
 ## Government Design Systems
 
@@ -153,6 +162,8 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Solving whole problems and proofing that with User Research
 - Multidisciplined Agile teams that iterate and improve 
 - Secure and open source, re-using components and the right technology to create a reliable service
+
+---
 
 ## Contact
 

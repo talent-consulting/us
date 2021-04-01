@@ -10,8 +10,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #theme: minima
 #theme: just-the-docs
 #color_scheme: dark
-#theme: jekyll-theme-cayman
-remote_theme: benbalter/retlab
+theme: jekyll-theme-cayman
+#remote_theme: benbalter/retlab
 #theme: jekyll-theme-example
 
 plugins:

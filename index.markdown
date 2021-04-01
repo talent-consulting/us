@@ -61,10 +61,7 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 
 ### Coding Standards 
 
-
-<table>
-
-<tr><td>
+![Talent](/images/coding.jpg)
 
 
 - Avoid hardcoded strings                                               
@@ -87,11 +84,11 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Add a "finally" block to around DB access to close connection 
 
 
-</td><td>
 
-![Talent](/images/coding.jpg)
 
-</td></tr> </table>
+
+
+
 
 
 [Back to Top](#contents)

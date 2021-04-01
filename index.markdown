@@ -152,30 +152,38 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Multidisciplined Agile teams that iterate and improve 
 - Secure and open source, re-using components and the right technology to create a reliable service
 
-# Header 1
-## Header 2
-### Header 3
+## Contact
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+- **Birmingham**
+1st Floor,
+134 Edmund Street,
+B3 2ES, UK
+T. +44 (0) 117 332 0824
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- **Manchester**
+2nd Floor, Old Exchange Buildings,
+29 – 31 King Street
+M2 6AD, UK
+T. +44 (0) 117 332 0824
 
-### Jekyll Themes
+- **Bristol**
+Ground Floor, The Quorum,
+Bond Street,
+BS1 3AE, UK
+T. +44 (0) 117 332 0824
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kwootten/karlwootten/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+- **London**
+Sackler Studios
+1-2 Bear Gardens
+SE1 9ED
+T. +44 (0) 117 332 0824
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
- <div class="footer">
-        &copy; Talent Consulting
-    </div>
+
+**E. contactus@talentconsulting.uk**
+
+
+

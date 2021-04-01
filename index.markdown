@@ -7,9 +7,9 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 ## Contents
 
 - [Coding Design](#coding-design)
-- [Coding Standards](#coding-standards)
-- [Naming Conventions](#naming-conventions)
-- [Comments](#comments)
+  - [Coding Standards](#coding-standards)
+  - [Naming Conventions](#naming-conventions)
+  - [Comments](#comments)
 - [Security](#security)
 - [Architectural](#architectural)
 - [Government Design Systems](#government-design-systems)
@@ -18,13 +18,20 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 
 ## Coding Design
 
-- ### Convention over configuration
+- ### Convention over Configuration
   - Should only need to specify unconventional aspects of a system
+  
+  *"As a general rule we don't want to invent an enormous java.beans.everything class that people have to inherit from. Instead we'd like the JavaBeans runtimes to provide default behaviour for 'normal' objects, but to allow objects to override a given piece of default behaviour by inheriting from some specific java.beans.something interface."*
+
 - ### Modular Design
   - Subdivide application into smaller parts, i.e. micro-services, with defined contracts
   
+  *"design approach that creates things out of independent parts with standard interfaces that can be stacked, rearranged, customized, reused and so on"*
+  
 - ### Scalable Design
   - Ensure application modules can be scaled horizontally and vertically 
+
+  *" scalability is the ability of a system to handle sudden changes in workload without negatively impacting performance. It’s usually broken down into three areas: Availability, Performance, Reliability"*
 
 - ### Accessible Design
   - All users on all devices should be able to seamlessly and consistently access the service
@@ -49,7 +56,7 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 
 ---
 
-## Coding Standards 
+### Coding Standards 
 
 ![Talent](/images/coding.jpg)
 
@@ -77,7 +84,7 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 
 ---
 
-## Naming Conventions 
+### Naming Conventions 
 - Provide additional information about the use of an identifier
 - Help formalize consistency and expectations within the team
 - Facilitate the use of automated refactoring tools
@@ -92,7 +99,7 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 
 ---
  
-## Comments
+### Comments
 - If your code is readable then comments should be unnecessary 
 - Meaningful but not verbose
 - But if complex code then detail in the function header comment

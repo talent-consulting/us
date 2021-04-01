@@ -89,6 +89,68 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Operational, Personnel and Supply Chain Security
 - Auditing, logging and oversight
 							
+## Architectural Principles
+
+![architectural](images/architectural.jpg) 
+
+- Information Management 
+- Business Continuity and DR 
+- Data as an Asset to be Shared and Accessible
+- Maximize Benefit to the Enterprise
+- Ease-of-Use and Accessibility
+- Control Technical Divergence>
+
+### Two predominant architectural types
+
+
+
+| Micro-Services      				| Monolith 				 |
+| --------------------------------------------- | -------------------------------------- |
+|  		**Pros**      			| 		**Pros**       		 |
+| Header      					| Simplicity       			 |
+| Scalable					| Cross-cutting concerns       		 |
+| Security Boundaries				| Performance       			 |
+| Modular by Design				| Consistent Technology stack       	 |
+| Independent CI/CD				| Focused release       		 |
+| Maintainable/Zero Downtime			|        				 |
+| Zero Downtime					|        				 |
+| Diverse/Autonomous				|        				 |
+| Low coupling					|        				 |
+| 	**Cons**				|  	**Cons**      			 |
+| Complexity					| Reliability    			 |
+| Eventual Consistency				| Large Updates/Releases       		 |
+| Remote calls					| Technology stack       		 |
+| Design for failure				| High coupling       			 |
+| Cross-cutting concerns			| Title       				 |
+
+
+## Government Design Systems
+
+### GOV.UK Design System
+
+[![GDS](images/gdesign.png)](https://design-system.service.gov.uk/)
+
+- Use this design system to make your service consistent with GOV.UK. 
+- Learn from the research and experience of other service teams and avoid repeating work that’s already been done. 
+- Make your service look like GOV.UK with guides for applying layout, typography, colour and images.
+- Help users complete common tasks like entering names and addresses, filling in forms and creating accounts.
+
+### Technology Code of Practice
+
+[![GDSTech](images/gds.png)](https://www.gov.uk/government/publications/technology-code-of-practice/technology-code-of-practice/)
+
+- You should use the Technology Code of Practice for all of your government technology projects or programmes. 
+- Consider each point, align your project or programme with the mandatory points, and follow as many of the remaining points as is practical.
+- You’ll get the most benefit by aligning your organisation’s technology and business strategies to the Technology Code of Practice.
+
+### GDS Service Standard
+
+[![GDSTech](images/gdsmanual.png)](https://www.gov.uk/service-manual/service-standard)
+
+- The Service Standard helps teams to create and run great public services in a cohesive manner, maintaining consistent and accessible UX
+- Solving whole problems and proofing that with User Research
+- Multidisciplined Agile teams that iterate and improve 
+- Secure and open source, re-using components and the right technology to create a reliable service
 
 # Header 1
 ## Header 2
@@ -114,3 +176,6 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+ <div class="footer">
+        &copy; Talent Consulting
+    </div>

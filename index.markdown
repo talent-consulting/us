@@ -90,6 +90,7 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 </td><td>
 
 ![Talent](/images/coding.jpg)
+
 </td></tr> </table>
 
 

@@ -56,7 +56,9 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - Avoid passing null arrays, always pass initialised empty array
 - Avoid too many folders in a single assembly
 - Add a "finally" block to around DB access to close connection 
+
 ---
+
 ## Naming Conventions 
 - Provide additional information about the use of an identifier
 - Help formalize consistency and expectations within the team

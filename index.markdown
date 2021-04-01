@@ -4,15 +4,19 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 
 ![Talent](/images/Talent.png)
 
-##Contents
+## Contents
 
-- [Code](#code)
-- [Standards](#standards)
-- [Table](#table)
+- [Coding Design](#coding-design)
+- [Coding Standards](#coding-standards)
+- [Naming Conventions](#naming-conventions)
+- [Comments](#comments)
+- [Security](#security)
+- [Architectural](#architectural)
+- [Government Design Systems](#government-design-systems)
 
 ---
 
-## Code
+## Coding Design
 
 - ### Convention over configuration
   - Should only need to specify unconventional aspects of a system
@@ -42,7 +46,7 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 
 ---
 
-## Standards 
+## Coding Standards 
 
 ![Talent](/images/coding.jpg)
 
@@ -105,7 +109,7 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 
 ---
 
-## Architectural Principles
+## Architectural 
 
 ![architectural](images/architectural.jpg) 
 

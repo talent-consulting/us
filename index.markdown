@@ -14,7 +14,7 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - [Architectural Principles](#architectural-principles)
   - [Two predominant architectural types](#two-predominant-architectural-types)
 - [Government Design Systems](#government-design-systems)
-  - [GOV.UK Design System](#gov.uk-design-system)
+  - [GOV.UK Design System](#govuk-design-system)
   - [Technology Code of Practice](#technology-code-of-practice)
   - [GDS Service Standard](#gds-service-standard)
   - [Digital Data and Technology](#digital-data-and-technology)
@@ -206,7 +206,7 @@ The  threat surface is reduced due to the compartmentatlisation of the service c
 
 ## Government Design Systems
 
-### GOV.UK Design System
+### GOVUK Design System
 
 [![GDS](images/gdesign.png)](https://design-system.service.gov.uk/)
 

@@ -11,7 +11,7 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
   - [Naming Conventions](#naming-conventions)
   - [Comments](#comments)
 - [Security](#security)
-- [Architectural](#architectural)
+- [Architectural Principles](#architectural-principles)
 - [Government Design Systems](#government-design-systems)
 
 ---
@@ -161,7 +161,7 @@ The  threat surface is reduced due to the compartmentatlisation of the service c
 
 ---
 
-## Architectural 
+## Architectural Principles
 
 ![architectural](images/architectural.jpg) 
 
@@ -170,7 +170,7 @@ The  threat surface is reduced due to the compartmentatlisation of the service c
 - Data as an Asset to be Shared and Accessible
 - Maximize Benefit to the Enterprise
 - Ease-of-Use and Accessibility
-- Control Technical Divergence>
+- Control Technical Divergence
 
 ### Two predominant architectural types
 

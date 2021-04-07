@@ -12,7 +12,12 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
   - [Comments](#comments)
 - [Security](#security)
 - [Architectural Principles](#architectural-principles)
+  - [Two predominant architectural types](#two-predominant-architectural-types)
 - [Government Design Systems](#government-design-systems)
+  - [GOV.UK Design System](#gov.uk-design-system)
+  - [Technology Code of Practice](#technology-code-of-practice)
+  - [GDS Service Standard](#gds-service-standard)
+  - [Digital Data and Technology](#digital-data-and-technology)
 
 ---
 
@@ -226,6 +231,10 @@ The  threat surface is reduced due to the compartmentatlisation of the service c
 - Solving whole problems and proofing that with User Research
 - Multidisciplined Agile teams that iterate and improve 
 - Secure and open source, re-using components and the right technology to create a reliable service
+
+### Digital Data and Technology
+Digital Data and Technology profession capability framework
+[![GDSTech](images/gdsmanual.png)](https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework)
 
 [Back to Top](#contents)
 

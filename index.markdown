@@ -24,7 +24,7 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - ### Convention over Configuration
   - Should only need to specify unconventional aspects of a system
   
-  *"As a general rule we don't want to invent an enormous java.beans.everything class that people have to inherit from. Instead we'd like the JavaBeans runtimes to provide default behaviour for 'normal' objects, but to allow objects to override a given piece of default behaviour by inheriting from some specific java.beans.something interface."*
+  *"As a general rule we don't want to invent an enormous everything class that people have to inherit from. Instead we'd like the  runtimes to provide default behaviour for 'normal' objects, but to allow objects to override a given piece of default behaviour by inheriting from some specific interface."*
 
 - ### Modular Design
   - Subdivide application into smaller parts, i.e. micro-services, with defined contracts

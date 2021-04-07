@@ -154,7 +154,7 @@ Our architectural design default is to use Micro-Services.
 
 Inherent in that topology is the separation of security boundaries and data isolation. 
 
-The  threat surface is reduced due to the compartmentatlisation of the service compomnents and independent deployments and security. So that a breach of one aspect of the system will not effect other aspects.
+The  threat surface is reduced due to the compartmentatlisation of the service components and independent deployments and security. So that a breach of one aspect of the system will not effect other aspects.
 
 [Back to Top](#contents)
 

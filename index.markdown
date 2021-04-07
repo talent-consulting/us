@@ -234,7 +234,7 @@ The  threat surface is reduced due to the compartmentatlisation of the service c
 
 ### Digital Data and Technology
 Digital Data and Technology profession capability framework
-[![GDSTech](images/gdsmanual.png)](https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework)
+[GDSTech](https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework)
 
 [Back to Top](#contents)
 

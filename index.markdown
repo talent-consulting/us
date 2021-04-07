@@ -193,12 +193,13 @@ The  threat surface is reduced due to the compartmentatlisation of the service c
 | Zero Downtime					|        				 |
 | Diverse/Autonomous				|        				 |
 | Low coupling					|        				 |
+| 					|        				 |
 | 	**Cons**				|  	**Cons**      			 |
 | Complexity					| Reliability    			 |
 | Eventual Consistency				| Large Updates/Releases       		 |
 | Remote calls					| Technology stack       		 |
 | Design for failure				| High coupling       			 |
-| Cross-cutting concerns			| Title       				 |
+| Cross-cutting concerns			|        				 |
 
 [Back to Top](#contents)
 

@@ -39,20 +39,39 @@ At Talent we are strong proponents of Agile methodologies. Taking the flexible a
 - ### Accessible Design
   - All users on all devices should be able to seamlessly and consistently access the service
 
+*"...a design process in which the needs of people with disabilities are specifically considered"*
+
+*"W3.org WCAG guidlines https://www.w3.org/WAI/"*
+
 - ### DRY Code
   - Early identification of common routines and methods for abstraction and shared use
+
+*"I have an increasing sense that a pig-headed determination to
+remove all repetition can lead you a long
+way toward a good design and can help you
+apply and understand the patterns that are
+common in good designs. " ***Martin Fowler***  *
 
 - ### OO Open/Closed
   - Abiliy to add new functionality without changing existing code
 
+*"we should strive to write code that doesn’t have to be changed every time the requirements change" *
+
 - ### OO Composition over inheritance
   - Composite reuse that allows classes to achieve polymorphism by composition not inheritance
-
+ 
+ *"..a design principle that gives the design higher flexibility, it is better to compose what an object can do than extend what it is... "* 
+ 
+ 
 - ### Single Responsibility Pattern
   - Focus modules/classes on a single concern and single responsibility
 
+*"..each component (method,class, module, service) should have a single responsibility: Business Logic, Control flow, Integration, Data.."* 
+
 - ### Inversion of Control	
   - Allow the application to control the program flow via a framework or configuration
+  
+*"..decouple your application to make future changes easier, code against interfaces, simpler to add unit tests.."*
 
 
 [Back to Top](#contents)
